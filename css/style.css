@@ -1,0 +1,471 @@
+/*==================================
+    **ALL COMMON CSS PART START**
+===================================*/
+:root{
+    --PRIMARY_COLOR: #7c4fe0;
+    --WHITE_COLOR: #ffffff;
+    --paragraph-color: #000;
+    --BLACK: #1E1E1E;
+    --OSWALD: 'Oswald', sans-serif;
+    --ROBOTO: 'Roboto', sans-serif;
+}
+body{
+    font-family: var(--ROBOTO);
+    background: #EEE;
+}
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0 ;
+    box-sizing: border-box;
+}
+ul,ol,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+input:focus,button:focus,select:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+img{
+    vertical-align: middle;
+}
+.img_fluid{
+    width: 100%;
+    height: auto;
+}
+.w_100{
+    width: 100%;
+}
+h4{
+    font-family: var(--ROBOTO);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 15px 15px;
+    color: var(--paragraph-color);
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+/* COMMON HEADING START */
+.common_haeading{
+    max-width: 690px;
+    margin: 0 auto;
+    text-align: center;
+}
+.common_haeading h3{
+    font-family: var(--OSWALD);
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--haeading-color);
+    text-transform: uppercase;
+}
+.common_haeading p{
+    margin-top: 20px;
+    font-family: var(--ROBOTO);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--paragraph-color);
+}
+/* COMMON HEADING END */
+
+/* COMMON BUTTON START */
+.common_btn{
+    font-family: var(--ROBOTO);
+    border-radius: 17px;
+    padding: 17px 35px;
+    text-align: center;
+    background: var(--PRIMARY_COLOR);
+    border: 2px solid var(--WHITE_COLOR);
+    transition:all linear .3s;
+    -webkit-transition:all linear .3s;
+    -moz-transition:all linear .3s;
+    -ms-transition:all linear .3s;
+    -o-transition:all linear .3s;
+}
+.common_btn a{
+    font-family: var(--ROBOTO);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--WHITE_COLOR);
+    text-transform: uppercase;
+    transition:all linear .3s;
+    -webkit-transition:all linear .3s;
+    -moz-transition:all linear .3s;
+    -ms-transition:all linear .3s;
+    -o-transition:all linear .3s;
+}
+.common_btn:hover{
+    font-family: var(--ROBOTO);
+    border-radius: 17px;
+    padding: 17px 35px;
+    text-align: center;
+    background: var(--WHITE_COLOR);
+    border: 2px solid var(--PRIMARY_COLOR);
+}
+.common_btn:hover a{
+    font-family: var(--ROBOTO);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--PRIMARY_COLOR);
+    text-transform: uppercase;
+}
+/* COMMON BUTTON END */
+
+/* =================================
+        DON'T EDIT THIS PART
+==================================== */
+
+
+
+/* =================================
+        START YOUR WORK PART
+==================================== */
+
+
+/*==================================
+    **ALL COMMON CSS PART START**
+===================================*/
+
+
+/*==============================
+    NAVBAR PART START
+==============================*/
+#navbar{}
+/*==============================
+    NAVBAR PART END
+==============================*/
+
+
+/*==============================
+    BANNER PART START
+==============================*/
+#banner{}
+/*==============================
+    BANNER PART END
+==============================*/
+
+
+/*==============================
+        AWESOME PART START
+==============================*/
+#features{}
+/*==============================
+        AWESOME PART END
+==============================*/
+
+
+/*==============================
+    THIS VIDEO PART START
+==============================*/
+#video{}
+/*==============================
+     THIS VIDEO PART END
+==============================*/
+
+
+/*==============================
+    HOW IT WORK PART START
+==============================*/
+#works{}
+/*==============================
+    HOW IT WORK PART END
+==============================*/
+
+
+/*==============================
+    TRACK TIME PART START
+==============================*/
+#track_time{}
+/*==============================
+    TRACK TIME PART END
+==============================*/
+
+
+/*==============================
+    BUILT FOR PART START
+==============================*/
+#built{}
+/*==============================
+    BUILT FOR PART END
+==============================*/
+
+
+/*==============================
+    CLIENT REV PART START
+==============================*/
+#client{}
+/*==============================
+    CLIENT REV PART END
+==============================*/
+
+
+/*==============================
+    COUNTER UP PART START
+==============================*/
+#counterup{}
+/*==============================
+    COUNTER UP PART END
+==============================*/
+
+
+/*==============================
+    OUR TEAM PART START
+==============================*/
+#our_team{}
+/*==============================
+    OUR TEAM PART END
+==============================*/
+
+
+/*==============================
+    APP SS PART START
+==============================*/
+#app{}
+/*==============================
+    APP SS PART END
+==============================*/
+
+
+/*==============================
+    QUESTIONS PART START
+==============================*/
+#questions{}
+/*==============================
+    QUESTIONS PART END
+==============================*/
+
+
+/*==============================
+    SUBSCRIBE PART START
+==============================*/
+#subscribe{}
+/*==============================
+    SUBSCRIBE PART END
+==============================*/
+
+
+/*==============================
+   LATEST BLOG PART START
+==============================*/
+#latest_blog{
+    background: var(--WHITE_COLOR);
+
+}
+#latest_blog .blog-col {
+    position: relative;
+    margin: 100px 0px;
+  }
+#latest_blog  .blog-col p {
+    position: relative;
+    margin-bottom: 0 !important;
+  }
+#latest_blog .blog-col  p  a {
+    display: block;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+#latest_blog .blog-col p a .blog-img {
+    width: 100%;
+    opacity: 1;
+    transition: all 0.3s;
+  }
+#latest_blog .blog-col p .blog-category {
+    position: absolute;
+    display: block;
+    left: 20px;
+    top: 20px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: bold;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+  }
+#latest_blog .blog-col .blog-wrapper {
+    clear: both;
+    padding-top: 30px;
+  }
+#latest_blog .blog-col .blog-wrapper .blog-text .blog-about {
+    color: #999;
+  }
+#latest_blog .blog-col .blog-wrapper .blog-text .blog-about span a{
+    color: var(--PRIMARY_COLOR);
+    padding-right: 10px;
+  }
+#latest_blog .blog-col .blog-wrapper .blog-text .more-link {
+    margin-top: 20px;
+    font-weight: bold;
+    transition: all 0.3s;
+  }
+.blog-text a{
+    color: #7c4fe0;
+}
+.blog-col:hover .more-link {
+    color: #444;
+    transform: scale(1.12);
+    padding-left: 5px;
+  }
+
+
+#latest_blog .blog-col:hover .blog-img {
+    opacity: 0.7;
+    transform: scale(1.12);
+  }
+#latest_blog .blog-col:hover .blog-category{
+    background-color: var(--PRIMARY_COLOR);
+  }
+#latest_blog .blog-col .blog-text h4{
+    padding-left: 0;
+    margin-top: 0;
+  }
+#latest_blog .blog-col:hover .blog-text h4{
+    color: var(--PRIMARY_COLOR)
+  }
+/*==============================
+   LATEST BLOG PART END
+==============================*/
+
+
+/*==============================
+    PRICING PART START
+==============================*/
+#pricing{ 
+    background: var(--WHITE_COLOR) ;
+}
+#pricing .common_haeading{ 
+    margin-bottom: 85px;
+}
+
+.columns{
+    padding: 40px 0;
+    background: var(--WHITE_COLOR);
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow:  0 0 40px 0 rgba(0, 0, 0, 0.06);
+    transition: all linear .3s;
+    position: relative;
+    text-align: center;
+    
+  }
+.columns.middle{
+    position: absolute;
+    width: 420px;
+    transform: scale(1.15);
+    z-index: 1;
+    margin-bottom: 0px;
+    border-bottom: 2px solid #000;
+    border-bottom-color: rgb(0, 0, 0);
+    transition: all linear .3s;
+  }
+.columns.middle:hover{
+    transform: scale(1.2);
+  }
+.columns:hover{
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    border-color: var(--PRIMARY_COLOR);
+  }
+
+ .columns .colums_icon {
+    margin-bottom: 20px;
+  }
+ .columns .colums_icon i{
+    display: inline-block;
+    font-size: 54px;
+    line-height: 54px;
+    margin-bottom: 20px;
+    color: #7c4fe0;
+  }
+ .columns .colums_icon:hover {
+    color: #7c4fe0;
+  }
+.columns .colums_icon span {
+    font-family: var(--ROBOTO);
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #111;
+  }
+ .columns ul li {
+    font-family: var(--ROBOTO);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #555;
+    padding: 5px;
+  }
+  
+
+  
+.pricing .common_btn{
+    width: 160px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pricing h3{
+    text-align: center;
+}
+.pricing .image{
+    display: inline-block;
+    vertical-align: top;
+    max-width: 880px;
+    margin: 0 auto;
+}
+.pricing .image img{
+    padding-top: 120px;
+    height: auto;
+    max-width: 100%;
+}
+/*==============================
+    PRICING PART END
+==============================*/
+
+  
+
+/*==============================
+    GET IN TOUCH PART START
+==============================*/
+#get_in_touch{}
+/*==============================
+    GET IN TOUCH PART END
+==============================*/
+
+
+/*==============================
+    FOOTER PART START
+==============================*/
+#footer{}
+/*==============================
+    FOOTER PART END
+==============================*/
+
+
+/* =================================
+        END YOUR WORK PART
+==================================== */
+
+
