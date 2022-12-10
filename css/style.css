@@ -207,7 +207,78 @@ h4{
 /*==============================
     CLIENT REV PART START
 ==============================*/
-#client{}
+#client{
+  background: var(--WHITE_COLOR);
+}
+#client .hedding{
+  padding-top: 150px;
+  margin-bottom: 70px;
+}
+.single-box p{
+  font-size: 25px;
+  line-height: 1.5em;
+  text-align: center;
+  color: #666;
+  margin-bottom: 0;
+}
+.single-box p i{
+  color: #7c4fe0;
+  font-size: 40px;
+}
+.single-block-media{
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+.single-block-media .client-info img{
+  width: 100%;
+}
+.slick-slide img {
+  cursor: pointer;
+  padding: 12px;
+  opacity: 0.5;
+  border: 2px solid transparent;
+  transition: all 0.3s;
+}
+
+.slick-center img{
+  border: 2px solid #7c4fe0;
+  padding: 2px;
+}
+
+.slick-slide{
+  margin: 0 10px;
+}
+.slick-center img {
+  padding: 2px;
+  opacity: 1;
+}
+.slick-slide .client-info{
+  margin-top: 20px;
+  text-align: center;
+  transition: all 0.3s;
+  visibility: hidden;
+  opacity: 0;
+}
+.slick-center .client-info {
+  visibility: visible;
+  opacity: 1;
+}
+.client-info h3 {
+    font-size: 20px;
+    line-height: 16px;
+    margin: 0;
+    text-align: center;
+    color: #111;
+    font-weight: 700;
+    line-height: 1.2;
+}
+ .client-info span {
+  display: block;
+  color: #999999;
+  margin-top: 10px;
+  line-height: 1em;
+  text-align: center;
+}
 /*==============================
     CLIENT REV PART END
 ==============================*/
