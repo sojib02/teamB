@@ -225,7 +225,103 @@ h4{
 /*==============================
     OUR TEAM PART START
 ==============================*/
-#our_team{}
+#our_team{
+    background: var(--WHITE_COLOR);
+}
+
+
+
+.team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.team-member {
+    position: relative;
+    background-color: #fff;
+    transition: all 0.3s;
+    margin-bottom: 110px;
+    margin-top: 70px;
+  }
+  .team-member .team-image {
+    position: relative;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .team-member .team-image img {
+    width: 100%;
+    transition: all 0.3s;
+
+  }
+  img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+  }
+  .team-member .team-social {
+    background-color: rgba(124, 79, 224, 0.75);
+  }
+  .team-member .team-social {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    border-radius: 6px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s;
+  }
+  .team-member:hover .team-social {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .team-member .team-social-inner {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+  }
+  .team-member .team-social-inner  a {
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0 12px;
+    color: #fff;
+    transition: all 0.3s;
+  }
+  .team-member .team-details{
+    margin-top: 30px;
+    text-align: center;
+  }
+  .team-member .team-details h5 a{
+    font-family: var(--ROBOTO);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--paragraph-color);
+    transition: all 0.3s;
+    margin-bottom: 0;
+  }
+  .team-member .team-details h5 a:hover{
+    color: var(--PRIMARY_COLOR);
+    
+    
+  }
+  .team-member .team-details p{
+    font-family: var(--ROBOTO);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: var(--paragraph-color);
+    margin-bottom: 0;
+  }
 /*==============================
     OUR TEAM PART END
 ==============================*/
@@ -449,7 +545,49 @@ h4{
 /*==============================
     GET IN TOUCH PART START
 ==============================*/
-#get_in_touch{}
+#get_in_touch{
+    background: var(--WHITE_COLOR);
+}
+
+.contact{
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: var(--PRIMARY_COLOR);
+  width: 200px;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: var(--ROBOTO);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+input[type=submit]:hover {
+  background-color: #8248ffb7;
+}
 /*==============================
     GET IN TOUCH PART END
 ==============================*/
