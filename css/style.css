@@ -1260,25 +1260,25 @@ input[type=submit]:hover {
     font-size: 25px;
     padding: 0;
 }
-#footer .f-item p {
+#footer .f_navbar p {
     color: var(--WHITE_COLOR);
     font-size: 16px;
     padding-right: 70px;
     line-height: 30px;
 }
-#footer .f-item {
+#footer .f_navbar {
     margin-bottom: 100px;
 }
-#footer .f-item .icon a {
+#footer .f_navbar .icon a {
     width: 40px;
     height: 40px;
     line-height: 30px;
 }
-#footer .f-item .icon a i {
+#footer .f_navbar .icon a i {
     font-size: 20px;
     color: var(--WHITE_COLOR);
 }
-#footer .f-item .icon a:hover i {
+#footer .f_navbar .icon a:hover i {
     font-size: 20px;
     color: var(--PRIMARY_COLOR);
     transition: all linear 0.5s;
@@ -1287,15 +1287,15 @@ input[type=submit]:hover {
     -ms-transition: all linear 0.5s;
     -o-transition: all linear 0.5s;
 }
-#footer .f-item .item-2 ul li a {
+#footer .f_navbar .item-2 ul li a {
     font-size: 20px;
     color: var(--WHITE_COLOR);
     line-height: 30px;
 }
-#footer .f-item .item-2 ul li a:hover {
+#footer .f_navbar .item-2 ul li a:hover {
     color: var(--PRIMARY_COLOR);
 }
-#footer .f-item .item-4 .app_store {
+#footer .f_navbar .item-4 .app_store {
     width: 170px;
     height: 65px;
     display: flex;
@@ -1308,10 +1308,10 @@ input[type=submit]:hover {
     padding: 0;
     transition: all linear 0.5s;
 }
-#footer .f-item .item-4 .app_store:hover {
+#footer .f_navbar .item-4 .app_store:hover {
     background: var(--WHITE_COLOR);
 }
-#footer .f-item .item-4 .app_store .icon {
+#footer .f_navbar .item-4 .app_store .icon {
     font-size: 35px;
     line-height: 0;
     transition: all linear 0.5s;
@@ -1320,19 +1320,20 @@ input[type=submit]:hover {
     -ms-transition: all linear 0.5s;
     -o-transition: all linear 0.5s;
 }
-#footer .f-item .item-4 .app_store:hover .icon a i {
+#footer .f_navbar .item-4 .app_store:hover .icon a i {
+    
     color: var(--PRIMARY_COLOR);
     transition: all linear 0.5s;
 }
-#footer .f-item .item-4 .app_store .text {
+#footer .f_navbar .item-4 .app_store .text {
     color: var(--WHITE_COLOR);
     transition: all linear 0.5s;
 }
-#footer .f-item .item-4 .app_store:hover .text li {
+#footer .f_navbar .item-4 .app_store:hover .text li {
     color: var(--PRIMARY_COLOR);
     transition: all linear 0.5s;
 }
-#footer .f-item .item-4 .app_store:hover .text h5 {
+#footer .f_navbar .item-4 .app_store:hover .text h5 {
     color: var(--BLACK);
     transition: all linear 0.5s;
 }

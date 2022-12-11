@@ -5,6 +5,278 @@
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    #banner .container {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #banner .text {
+        text-align: center;
+    }
+    #banner .text h1{
+        font-size: 36px;
+        color: #fff;
+        margin-bottom: 0px;
+        line-height: 50px;
+    }
+    #banner .text p {
+        font-size: 18px;
+        color: #fff;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    #banner .button .btn{
+        padding: 10px;
+        min-width: 160px;
+        margin-bottom: 50px;
+    }
+    #features img {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    #features .hedding {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .common_haeading h3 {
+        font-size: 30px;
+    }
+    .common_haeading p {
+        font-size: 20px;
+        margin: 0;
+    }
+    #video .overlay {
+        padding: 70px;
+    }
+    #video .overlay .continer .icon {
+        width: 65px;
+        height: 65px;
+    }
+    #video .overlay .continer .icon i {
+        color: var(--WHITE_COLOR);
+        font-size: 25px;
+    }
+    #video .overlay .continer p {
+        font-size: 20px;
+    }
+    #works .row .col-lg-4 {
+        padding-top: 50px;
+    }
+    #works .row .col-lg-4 .icon {
+        height: 80px;
+        width: 80px;
+    }
+    #works .row .col-lg-4 .icon i {
+        font-size: 35px;
+    }
+    #track_time {
+        margin: 40px 0;
+    }
+    #track_time .img {
+        padding: 0px;
+        margin-top: 0px;
+    }
+    #track_time .col-lg-6 .hedding .common_haeading {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #track_time .col-lg-6 .box .item .sub_box {
+        box-shadow: 0px 0px 19px -10px var(--PRIMARY_COLOR);
+    }
+    #track_time .col-lg-6 .box .item .sub_box .icon {
+        width: 60px;
+        height: 60px;
+    }
+    #track_time .col-lg-6 .box .item .sub_box .icon i {
+        font-size: 25px;
+    }
+    #track_time .col-lg-6 .box .item .sub_box .text h4 {
+        padding: 0;
+        margin: 0px 0 6px;
+        font-size: 15px;
+
+    }
+    #track_time .col-lg-6 .box .item .sub_box .text p {
+        padding: 0;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    #built .hedding .common_haeading {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #built .hedding .box .sub_box .icon i {
+        font-size: 17px;
+    }
+    #built .hedding .box .sub_box p {
+        font-size: 15px;
+        margin-left: 12px;
+    }
+    #built .hedding .common_btn {
+        width: 160px;
+        padding: 14px 10px;
+        margin: 0px auto 0;
+    }
+    .common_btn a {
+        font-size: 17px;
+        text-transform: capitalize;
+    }
+    #built .col-lg-6 .img {
+        padding: 25px;
+    }
+
+
+
+
+
+
+
+
+
+    #our_team .hedding{
+        padding: 60px 0px;
+    }
+    .team {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        flex-wrap: wrap;
+    }
+
+
+    .team-member {
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    #questions .accordion{
+        margin-top: 60px;
+    }
+    #questions .accordion .accordion-item {
+        margin-bottom: 5px;
+    }
+    #questions .text{
+        text-align: center;
+        margin-top: 25px;
+    }
+    #subscribe .hedding .common_haeading h3{
+        text-transform: capitalize;
+    }
+    #subscribe .hedding .common_haeading p{
+        margin-top: 0;
+        font-size: 18px;
+    }
+    #subscribe .overlay .hedding form input {
+        
+        margin-bottom: 15px;
+    }
+    #subscribe .overlay .hedding form button .common_btn {
+        font-size: 17px;
+    }
+    #latest_blog {
+        background: var(--WHITE_COLOR);
+        padding: 55px 0;
+    }
+    #latest_blog .blog-col {
+        margin: 20px 0;
+    }
+    #latest_blog .common_haeading{
+        margin-bottom: 35px;
+    }
+    #latest_blog .blog-col .blog-wrapper .blog-text .blog-about {
+        margin-bottom: 15px;
+    }
+    #latest_blog .blog-col p {
+        margin-top: 15px !important;
+    }
+    #pricing {
+        background: var(--WHITE_COLOR);
+        padding-bottom: 0px;
+    }
+    .columns.middle {
+        position: relative;
+        width: 100%;
+        transform: scale(1);
+        z-index: 0;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        border-bottom: 2px solid var(--BLACK);
+        border-bottom-color: var(--BLACK);
+        transition: all linear 0.3s;
+    }
+    .columns.middle:hover {
+        transform: scale(1);
+        box-shadow: 0 0 60px 0 rgb(0 0 0 / 30%);
+    }
+    .columns {
+        box-shadow: 0 0 60px 0 rgb(0 0 0 / 30%);
+        transform: scale(1);
+        border-color: var(--PRIMARY_COLOR);
+    }
+    .columns:hover {
+        transform: scale(1);
+        border-color: var(--PRIMARY_COLOR);
+    }
+    #get_in_touch {
+        background: var(--WHITE_COLOR);
+        padding-top: 5px;
+    }
+    .office {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .office h5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .office span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact {
+        margin-top: 0px;
+    }
+    #footer .f_navbar h3 {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+    #footer .f_navbar a {
+        font-size: 20px;
+    }
+    #footer .f_navbar .item-2 {
+        text-align: center;
+    }
+    #footer .f_navbar .item-2 ul li a {
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+    #footer .f_navbar .item-4 {
+        display:  flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    #footer .f_navbar .item-4 .app_store {
+        margin-bottom: 0px;
+    }
+    #footer .f_navbar p {
+        padding-right: 0px;
+        text-align: center;
+    }
+    #footer .f_navbar .icon {
+        text-align: center;
+    }
+    #footer .f_navbar .icon a i {
+        font-size: 15px;
+        
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
