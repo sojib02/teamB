@@ -1,18 +1,18 @@
 
-// let navber= document.querySelector("nav");
-// window.addEventListener("scroll", function(){
-//   let scroll_valu=window.scrollY;
-//   if (scroll_valu > 150) {
-//     navber.classList.add("nav_stiky");
-//     navber.style.position= "sticky";
-//     navber.style.background= "white";
+ let navber= document.querySelector("nav");
+ let top_up= document.querySelector(".top_up");
+
+ window.addEventListener("scroll", function(){
+   let scroll_valu=window.scrollY;
+   if (scroll_valu > 120) {
+     navber.classList.add("nav_stiky");
+      top_up.classList.add("top_up_show");
   
-//   } else {
-//     navber.classList.remove("nav_stiky");
-//     navber.style.position.remove= "sticky";
-//     navber.style.background.remove= "white";
-//   }
-// })
+   } else {
+     navber.classList.remove("nav_stiky");
+     top_up.classList.remove("top_up_show");
+   }
+ })
 
 
 $(function(){
@@ -44,9 +44,9 @@ $(function(){
           breakpoint: 1024,
           settings: {
             slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToScroll: 1,
             infinite: true,
-            dots: true
+            dots: false
           }
         },
         {

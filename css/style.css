@@ -142,10 +142,51 @@ h4 {
     /* padding: 100px 60px; */
     background: linear-gradient(-25deg, hsla(0, 0%, 0%, 0.651) 1%, #4628dcc1 100%);
 }
+.navbar.nav_stiky{
+	width: 100%;
+	left: 0;
+	top: 0;
+	background-color: #7f66ffb8;
+	position: sticky;
+    transition: all linear .3s;
+	padding: 25px 0;
+    z-index: 9999;
+}
+.top_up{
+    width: 45px;
+    height: 45px;
+    bottom: 70%;
+    right: 30px; 
+    transition: all linear .5s;
+    position: absolute;
+}
+.top_up a i{
+    opacity: 0;
+    visibility: hidden;
+}
+.top_up_show a i{
+    opacity: 1;
+    visibility: visible;
+    color: #fff;
+}
+.top_up_show{
+   width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #7c4fe0;
+    bottom: 50px;
+    right: 30px; 
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear .3s;
+    color: #fff;
+}
+
 nav .container{
     width: 100%;
     /* background: pink; */
-    position: sticky;
 }
 #nav_ban .container ul li{
     margin-right: 10px;
@@ -490,7 +531,8 @@ nav .container{
     TRACK TIME PART START
 ==============================*/
 #track_time {
-    margin: 75px 0;
+    padding: 75px 0;
+    background: var(--WHITE_COLOR);
 }
 #track_time .container .row {
     align-items: center;
@@ -613,7 +655,7 @@ nav .container{
 ==============================*/
 #client{
     padding: 75PX 0;
-    /* background: var(--WHITE_COLOR); */
+    background: var(--WHITE_COLOR);
   }
   #client .hedding{
     margin-bottom: 70px;
@@ -798,7 +840,8 @@ nav .container{
     APP SS PART START
 ==============================*/
 #app {
-    margin: 75px 0;
+    padding: 75px 0;
+    background: var(--WHITE_COLOR);
 }
 #app .container .hedding {
     margin-bottom: 50px;
@@ -968,6 +1011,7 @@ nav .container{
 ==============================*/
 #latest_blog {
     padding: 75px 0;
+    background: var(--WHITE_COLOR);
 }
 #latest_blog .blog-col {
     position: relative;
@@ -1144,7 +1188,7 @@ nav .container{
     GET IN TOUCH PART START
 ==============================*/
 #get_in_touch{
-    /* background: var(--WHITE_COLOR); */
+    background: var(--WHITE_COLOR);
     padding-top:75px;
 }
 .contact{
