@@ -142,7 +142,16 @@ h4 {
     /* padding: 100px 60px; */
     background: linear-gradient(-25deg, hsla(0, 0%, 0%, 0.651) 1%, #4628dcc1 100%);
 }
-
+.navbar.nav_stiky{
+	width: 100%;
+	left: 0;
+	top: 0;
+	background-color: #7f66ffb8;
+	position: static;
+    transition: all linear .3s;
+	padding: 25px 0;
+    z-index: 9999999;
+}
 .top_up{
     width: 45px;
     height: 45px;
