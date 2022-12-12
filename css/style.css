@@ -147,7 +147,7 @@ h4 {
 	left: 0;
 	top: 0;
 	background-color: #7f66ffb8;
-	position: fixedgi;
+	position: fixed;
     transition: all linear .3s;
 	padding: 25px 0;
     z-index: 9999999;
